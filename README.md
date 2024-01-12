@@ -18,9 +18,11 @@ During each chance hint will be given to predict the right number.
 - A toogle `gameplay` variable is used to decide whether user should play the game or not
 - Following are list of functions encompasses building the game
   
-  - validateUserInput
-   $~~~~$ perform some sort of validation such as user guess should ranges between 1 and 100, be a number and etc..
-  - validateGuess
+  - validateUserInput:-
+    perform some sort of validation such as user guess should ranges between 1 and 100, be a number and etc..
+
+  - validateGuess:-
+    this function give directions to user so that they can guess the target
   - displayGuess
   - displayMessage
   - endGame
