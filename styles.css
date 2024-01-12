@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body {
+    height: 100%;
+    width: 100%;
+}
+body {
+    background-color: #212121;
+    color: white;
+
+}
+
+.heading {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 50px;
+    margin-top: 20px;
+}
+.container {
+    margin-top: 20px;
+    background-color: #313131;
+    color: aliceblue;
+    height: 500px;
+    width: 450px;
+    padding: 10px 10px 10px 10px;
+    position: relative;
+    border-radius: 20px;
+}
+
+.parent-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+#second-heading {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+#first-heading {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+#guess {
+    margin-top: 50px;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+#guess-number {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.btn {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-guess-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.info-guess-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.resultParas {
+    margin-top: 10px;
+    display: block;
+    position: absolute;
+    margin-left: 20%;
+    align-items: center;
+    justify-items: center;
+}
+
+.guesses {
+    background-color: #212121;
+    color: deeppink;
+    width: fit-content;
+    height: fit-content;
+}
+.lastResult {
+    background-color: #212121;
+    color: aqua;
+    width: fit-content;
+    height: fit-content;
+}
+.lowOrHi {
+    width: fit-content;
+    height: 30px;
+    text-align: center;
+    border-radius: 10px;
+
+}
