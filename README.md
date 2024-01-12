@@ -18,15 +18,25 @@ During each chance hint will be given to predict the right number.
 - A toogle `gameplay` variable is used to decide whether user should play the game or not
 - Following are list of functions encompasses building the game
   
-  - validateUserInput:-
-    perform some sort of validation such as user guess should ranges between 1 and 100, be a number and etc..
+  - `validateUserInput`:-
+    Perform some sort of validation such as user guess should ranges between 1 and 100, be a number and etc..
 
-  - validateGuess:-
-    this function give directions to user so that they can guess the target
-  - displayGuess
-  - displayMessage
-  - endGame
-  - newGame
+  - `validateGuess`:-
+    This function give directions to user so that they can guess the target, And display the messages such as *You Guessed Right Number!*, *Number is Too LOW*, and *Number is Too HIGH*
+
+  - `displayGuess`:-
+    Display's the previous guess and number of chances remaining..
+
+  - `displayMessage`:-
+    Provides styling to previous guess slot, chances left, and displays *You Guessed Right Number!.* if you `won`
+
+  - `endGame`:-
+    Disables the *submit* button, displays *Restart Game* button to restart the game.
+    user can't do anything untill he/she click's on *Restart Game*.
+
+  - `newGame`:-
+    Resets everything including *previous guess slot*, make *playGame* variable `true`, remove the *Restart Game*
+    Re-generating the random number for *fresh Game*
 
 
  
